@@ -1,5 +1,17 @@
 # Library and Command Line Spec
 
+## High Level
+This project will include the following...
+1) A set of libraries that make common tasks easier
+2) A command line tool that allows you to use all of these convenience methods directly from your command line
+3) A testing framework allowing you to try things locally before using real ETH
+
+## Interacting with ETH Networks
+We will use the go-ethereum client which will allow for rpc or ipc connections
+
+#### Testing
+We can use [Ganache](https://github.com/trufflesuite/ganache) for testing locally
+
 ## Library Interface
 
 ### Method Index
